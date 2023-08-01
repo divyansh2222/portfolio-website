@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+}
+#navigation{
+    height: 16%;
+    width: 100%;
+    background-color:rgb(7 6 5);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+
+}
+ #navigation button{
+    margin-top: 10px;
+    padding: 18px 28px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 700; 
+    background-color: #b4cedc;
+    color:black ;
+
+}
+#navigation button:hover{
+    color:  #000;
+    background-color: rgb(255, 247, 0);
+}
+
+.navi{
+    margin-top: 28px;
+}
+#navigation a{
+    
+    padding: 16px 20px;
+    border-radius: 50px;
+    /* background-color:#b4bbb9db; */
+    color: rgb(255, 247, 247);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: gilroy;
+}
+#navigation #hed{
+    color: #ccff7e;
+}
+#navigation #hed:hover{
+    color: #000000;
+    background-color:  rgb(255, 247, 0);
+}
+
+#navigation a:hover{
+    background-color:  rgb(255, 247, 0);
+    color: black;
+}
+#imgcon{
+    height: 84%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#imgcon #img1{
+    height: 300px;
+    width: 227px;
+    margin-top: 50px;
+    background-image: url(IMG-20220302-WA0163-01.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    left: 67%;
+    z-index: 100;
+    transition: all ease 0.9s;
+}
+#imgcon #img1:hover{
+   scale: 1.2;
+    background-image: url(IMG-20220302-WA0163-01.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    z-index: 100;
+}
+
+#imgcon #img2{
+    height: 300px;
+    width: 227px;
+    margin-top: 50px;
+    background-image: url(IMG_20211219_200038.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    z-index: 90;
+    transition: all ease 0.9s;
+
+}
+#imgcon #img2:hover{
+    scale: 1.2;
+    background-image: url(IMG_20211219_200038.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    z-index: 110;
+}
+#imgcon h1{
+    position: absolute;
+    top: 66%;
+    left: 21%;
+    color: #fff;
+    font-family: gilroy;
+    font-weight: 700;
+    font-size: 50px;
+}
+#imgcon h3{
+    position: absolute;
+    top: 61%;
+    left: 21%;
+    color: #fff;
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 27px;
+}
+#imgcon h5{
+    position: absolute;
+    top:  77%;
+    left: 21%;
+    font-style: italic;
+    color: #fff;
+    font-family: gilroy;
+    font-weight: 300;
+    font-size: 23px;
+}
+#social{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.links{
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+}
+.links a{
+    height: 60px;
+    width: 60px;
+    background-color: #65ffe1ad;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#social a:hover img{
+    height: 60px;
+    width: 60px;
+    transition: all ease 0.3s;
+    background-color: #ffffff;
+}
+/* ABOUT ME */
+#page2{
+    height:   120%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#ss{
+    margin-top: 25px;
+    height: 90%;
+    width: 100%;
+    /* background-color: azure; */
+    position: absolute;
+    top: 10%;
+
+    
+}
+#ss h1{
+    
+   
+    font-size: 50px;
+    color: #FF9800;
+    font-weight: 800;
+    font-family: gilroy;
+    margin-left: 46%;
+    
+    
+}
+#con{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#con p{
+    width: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-family: Courgette;
+    line-height: 40px;
+
+}
+ #imgg{
+    height: 288px;
+    width: 264px;
+    border-radius: 50%;
+    background-color: rgb(255, 247, 0);
+    background-image: url(Snapchat-29924176-01.png);
+    background-position: center;
+    background-size: cover;
+    overflow-y: visible;
+    
+}
+#imgg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2 button{
+   margin-top: 50px;
+   margin-left: 50%;
+    padding: 18px 28px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 700; 
+    background-color: #b4cedc;
+    color:black ;
+
+}
+#page2 button:hover{
+    color:  #000;
+    background-color: rgb(255, 247, 0);
+}
+
+/* EDUCATION */
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#page3 h2{
+    
+    font-size: 50px;
+    color: #000;
+    font-weight: 800;
+    font-family: gilroy;
+}
+#page3 #topic{
+    height: 25%;
+    width: 100%;
+    background-color: #a0c123;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imag{
+    height: 75%;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.same h1{
+    font-size: 16px;
+    font-family: gilroy;
+    color: #fff;
+    text-align: center;
+
+}
+.same p{
+    font-size: 12px;
+    font-family: gilroy;
+    color:#fff;
+    text-align: center;
+
+}
+#pic1{
+    height: 300px;
+    width: 250px;
+    background-color: #fff;
+   
+}
+#pic1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+#pic2{
+    height: 300px;
+    width: 300px;
+    
+}
+#pic2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#pic3{
+    height: 300px;
+    width: 250px;
+   
+}
+#pic3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+   /* SKILLS */
+#page4{
+    height: 110%;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    
+}
+#page4 h2{
+    margin-right: 10px;
+    font-size: 50px;
+    color: #000;
+    font-weight: 800;
+    font-family: gilroy;
+    
+}
+#page4 #skill{
+    height: 25%;
+    width: 100%;
+    background-color: #a0c123;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#skills{
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+  
+    display: flex;
+    flex-wrap: wrap;
+  align-items: center;    
+  justify-content: center;
+  
+}
+.related{
+    height: 150px;
+    width: 150px;
+    /* background-color: #a0c123; */
+    border-radius: 40px;
+    
+    
+}
+.related img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+#skill1{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+ /* PROJECTS */
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    padding-top: 30px;
+    position: relative;
+    padding-top: 40px;
+}
+#page5 h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: gilroy;
+    color: #a0c123;
+    text-align: center;
+
+}
+
+#video{
+    height: 80%;
+    width: 94%;
+  margin-left: 3%;
+  margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  align-items: center;   
+  background-color: #b4cedc; 
+  justify-content: center;
+  border-radius: 30px;
+  
+}
+.vdo{
+    height:180px;
+    width: 200px;
+    box-shadow: 0 5px 30px 0 black;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.vdo video{
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.vdo img{
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+#video7{
+    height:180px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+#video6{
+    height:180px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 40px;
+    
+}
+#video5{
+    height:180px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 40px;
+   
+    
+}
+#video4{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 40px;
+    
+}
+
+#video3{
+    height:180px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 40px;
+    
+}
+#video2{
+    height:180px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+#video1{
+    height:180px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+ /* CONTACT ME */
+#registration{
+   background-color: #000;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+     padding: 6vw 8vw 6vw 8vw;  
+}
+#registration .remainder{
+    color:  #a0c123;
+    font-family: gilroy;
+
+}
+#registration .remainder h1{
+    color: #fff;
+    font-size: 40px;
+    color: #a0c123;
+
+}
+    
+#registration .remainder .time{
+    margin-top: 40px;
+    display: flex;
+}
+#registration .remainder .time .day{
+    text-align: center;
+    padding: 13px 13px;
+    background-color: #fff;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 20px 0 rgba(31,38, 135, 0.37) ;
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 2px solid rgba(31,38, 135, 0.37);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.day:hover{
+
+    background-color: #ffffff;
+}
+#registration .form{
+
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(31,38, 135, 0.37) ;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+
+}
+#registration .form input{
+    margin: 15px 0px;
+    padding: 10px 5px;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+#registration .btn{
+
+    margin: 10px;
+    padding: 20px;
+}
+
+#registration a.yellow{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: aliceblue;
+    font-weight: 600;
+    border-radius: 2px;
+    color: #fff;
+    background-color: rgba(91, 231, 35, 0.932);
+    transition: 0.3s ease;
+}
+#registration a.yellow:hover{
+    color: #fff;
+    background-color: rgb(46, 46, 148);
+}
