@@ -6,13 +6,14 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 #main{
     position: relative;
 }
 #navigation{
-    height: 16%;
-    width: 100%;
+    height: 15vh;
+    width: 100vw;
     background-color:rgb(7 6 5);
     background-position: center;
     background-size: cover;
@@ -36,6 +37,12 @@ html,body{
     background-color: #b4cedc;
     color:black ;
 
+}
+#navigation #hire{
+        text-decoration: none;
+        color: #000;
+        padding: 0px 0px;
+        margin-left: 0px;
 }
 #navigation button:hover{
     color:  #000;
@@ -70,8 +77,8 @@ html,body{
     color: black;
 }
 #imgcon{
-    height: 84%;
-    width: 100%;
+    height: 90vh;
+    width: 100vw;
     background-image: url(https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80);
     background-position: center;
     background-size: cover;
@@ -200,7 +207,7 @@ html,body{
     color: #FF9800;
     font-weight: 800;
     font-family: gilroy;
-    margin-left: 46%;
+    text-align: center;
     
     
 }
@@ -248,6 +255,10 @@ html,body{
     color:black ;
 
 }
+#page2 a{
+    text-decoration: none;
+    color: #000;
+}
 #page2 button:hover{
     color:  #000;
     background-color: rgb(255, 247, 0);
@@ -280,7 +291,10 @@ html,body{
     /* background-color: #fff; */
     display: flex;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap ;
     justify-content: space-evenly;
+    gap: 20px;
 
 }
 .same h1{
@@ -336,6 +350,7 @@ html,body{
     background-color: #000;
     position: relative;
     
+    
 }
 #page4 h2{
     margin-right: 10px;
@@ -356,11 +371,9 @@ html,body{
 #skills{
     height: 60%;
     width: 60%;
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    right: 20%;
-  
+   margin-left: 50%;
+   transform: translate(-50%);
+   text-align: center;
     display: flex;
     flex-wrap: wrap;
   align-items: center;    
@@ -496,7 +509,7 @@ html,body{
 #registration{
    background-color: #000;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -573,3 +586,164 @@ html,body{
     color: #fff;
     background-color: rgb(46, 46, 148);
 }
+
+@media screen and (max-width: 600px) {
+    .navi a{
+        display: none;
+    }
+    #navigation{
+        height: 13vh;
+        padding: 10px 0px;
+        justify-content: flex-start;
+        padding-left: 10px;
+        position: relative;
+    }
+    #imgcon{
+        height: 70vh;
+        width: 100vw;
+        /* background-position:center;
+        background-size: cover; */
+        z-index: 1000;
+    }
+    #imgcon h3{
+        top: 8%;
+        left: 30%;
+        font-size: 40px;
+    }
+    #imgcon h1{
+        top: 18%;
+        left: 30%;
+        font-size: 30px;
+    }
+    #imgcon h5{
+        top: 25%;
+        left: 30%;
+        font-size: 20px;
+    }
+    #imgcon #img1{
+        height: 250px;
+        width: 180px;
+        top: 35%;
+        left: 35%;
+    
+    }
+    #imgcon #img2{
+        height: 250px;
+        width: 180px;
+        top: 30%;
+        left: 45%;
+    
+    }
+    .links{
+        top: 35%;
+        left: 3%;
+    }
+    #imgg{
+        height: 198px;
+        width: 164px;
+    }
+    #con p{
+        font-size: 18px;
+        line-height: 20px;
+    
+    }
+    #page2{
+        height:   90%;
+    }
+    #ss{
+        margin-top: 10px;
+        top: 5%;
+    }
+    
+       
+    #page2 button{
+        margin-left: 50%;
+        transform: translate(-50%);
+     }
+     #page3 #topic{
+        height: 10%;
+    }
+    #page3 h2{
+        font-size: 30px;
+    }
+    #topic>img{
+        height: 50px;
+    }
+    #imag{
+        height: 85%;
+    }
+    #pic1{
+        height: 160px;
+        width: 150px;
+    }
+    #pic2{
+        height: 150px;
+        width: 150px;
+        
+    }  
+    #pic3{
+        height: 150px;
+        width: 150px;
+        
+    }
+    #page4{
+        height: 80%;
+    }
+    #page4 h2{
+        font-size: 30px;
+    }
+    #page4 #skill{
+        height: 13%;
+    }
+    #skill>img{
+        height: 50px;
+    }
+    #skills{
+        margin-top: 50px;
+        width: 80%;
+        height: 60%;
+    }
+    .related{
+        height: 100px;
+        width: 100px; 
+    }
+    #page5{
+        height: 195%;
+    }
+    #video1{
+        margin-right: 0px;
+    }
+    #video{
+        height: 105%;
+        width: 94%;
+    }
+    #video6{
+        margin-right: 0px;    
+    }
+    #video3{
+        margin-right: 0px;    
+    }
+    #video2{
+        margin-left: 0px;  
+    } 
+    #video5{
+        margin-right: 0px;    
+    }
+    #video7{
+        margin-right: 0px;    
+    }
+    #registration{
+         height: 120%;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;   
+     }
+     .remainder{
+        margin-top: 150px;
+     }
+     #registration .remainder .time .day{
+        padding: 8px 8px;
+    
+    } 
+    
+  }
