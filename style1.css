@@ -633,6 +633,7 @@ display: block;
     .navi img{
         margin-left: 150px;
         display: block;
+        margin-right: 20px;
     }
     #imgcon{
         height: 70vh;
