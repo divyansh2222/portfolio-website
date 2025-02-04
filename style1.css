@@ -430,7 +430,7 @@ display: block;
 }
 
  /* PROJECTS */
-#page5{
+/* #page5{
     height: 100%;
     width: 100%;
     background-color: #000;
@@ -534,8 +534,44 @@ display: block;
     width: 300px;
     margin-top: 10px;
     margin-right: 40px;
+} */
+ 
+
+#page5{
+    height: 50%;
+    width: 100%;
+    background-color: #000;
+    padding-top: 30px;
+    position: relative;
+    padding-top: 40px;
 }
- /* CONTACT ME */
+#page5 h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: gilroy;
+    color: #a0c123;
+    text-align: center;
+
+}
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .project-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+  }
+  .project-link:hover {
+    transform: scale(1.1);
+    font-size: 22px;
+  }
+/* CONTACT ME */
 #registration{
    background-color: #000;
     width: 100%;
@@ -616,6 +652,7 @@ display: block;
     color: #fff;
     background-color: rgb(46, 46, 148);
 }
+
 
 @media screen and (max-width: 600px) {
     .navi a{
@@ -749,7 +786,8 @@ display: block;
         width: 100px; 
     }
     #page5{
-        height: 200%;
+        
+        height: 30%;
     }
     #video1{
         margin-right: 0px;
@@ -787,4 +825,52 @@ display: block;
     
     } 
     
+  }
+  @media screen and (max-width: 465px) {
+ #page2{
+    height: 150%;
+ }
+ #hire{
+    font-size: 14px;
+ }
+ #imgcon h5{
+
+    font-weight: 300;
+    font-size: 14px;
+    display: none;
+}
+  }
+
+
+
+  @media screen and (max-width: 365px) {
+  #pic1{
+    height: 80px;
+    width: 80px;
+  }
+  #pic2{
+    height: 80px;
+    width: 80px;
+  }
+  #pic3{
+    height: 80px;
+    width: 80px;
+  }
+  #page4{
+    height: 140%;
+  }
+  #page5{
+        
+    height: 30%;
+}
+  #video{
+    height: 150%;
+  }
+  #registration{
+    height: 200%;
+  }
+  #registration .remainder .time{
+    display:none;
+   
+}
   }
